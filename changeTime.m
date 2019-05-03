@@ -1,5 +1,8 @@
 clc;clear;
 ch = load ('chinacatalog.txt');
+%%%%  Format chinacatalog
+%%%%  mon day hour min  sec %%%%
+%%%% Like :  04 15 20 23 53.02 %%%%
 path= 'utccatalog.txt';
 fid = fopen(path,'w');
 for i=1:1:505 
